@@ -601,6 +601,15 @@ footer span:hover {
 .tab .link.active:hover {
     border-bottom: 5px solid black !important;
 }
+.projects .projectContainer .card img{
+    transition: all 0.2s ease-in-out;
+}
+.projects .projectContainer .card{
+    overflow: hidden !important;
+}
+.projects .projectContainer .card img:hover{
+    transform: scale(1.1);
+}
 
 
 
